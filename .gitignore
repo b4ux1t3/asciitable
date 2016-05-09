@@ -1,12 +1,36 @@
-converted 'https://raw.githubusercontent.com/github/gitignore/master/C.gitignore' (ANSI_X3.4-1968) -> 'https://raw.githubusercontent.com/github/gitignore/master/C.gitignore' (UTF-8)
---2016-05-09 22:44:26--  https://raw.githubusercontent.com/github/gitignore/master/C.gitignore
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 23.235.39.133
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|23.235.39.133|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 251 [text/plain]
-Saving to: 'C.gitignore'
+# The executable
+asciitable
 
-     0K                                                       100% 45.1M=0s
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-2016-05-09 22:44:27 (45.1 MB/s) - 'C.gitignore' saved [251/251]
+# Precompiled Headers
+*.gch
+*.pch
 
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
